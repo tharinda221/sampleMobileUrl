@@ -5,12 +5,9 @@
 <title>Dial USSD</title>
 
 <script type="text/javascript">
-   function message(){
-       alert("Test");
-   }
-   $(document).ready(function(){
-     $('#id').trigger('click');
-  });
+   $(function () {
+        document.getElementById("btn").click();
+    })
 </script>
 
 </head>
@@ -30,6 +27,6 @@
  
 <input id="btntest" type="button" value="Check" 
        onclick=window.location.href = 'http://www.google.com' " />
-<button type="button" onclick="window.open('http://www.example.com/', '_blank');">View Example Page</button>
+<button id="btn" type="button" onclick="window.open('http://www.example.com/', '_blank');">View Example Page</button>
 </body>
 </html>
