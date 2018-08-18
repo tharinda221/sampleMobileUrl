@@ -6,7 +6,7 @@
 
 <script type="text/javascript">
    window.onload = function() {
-  alert("I'm here")
+  alert(I'm here)
 document.getElementById("btn").click();
 };
 </script>
